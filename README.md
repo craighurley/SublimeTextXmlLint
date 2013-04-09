@@ -18,3 +18,4 @@ To run xmllint on the current file, simply press the following keys:
 
 - http://www.sublimetext.com
 - http://xmlsoft.org/xmllint.html
+- http://www.bergspot.com/blog/2012/05/formatting-xml-in-sublime-text-2-xmllint/
