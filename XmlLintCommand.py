@@ -14,7 +14,7 @@ class XmlLintCommand(sublime_plugin.TextCommand):
         p = subprocess.Popen(command, bufsize=-1, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, shell=True)
         result, err = p.communicate(self.view.substr(self.view.sel()[0]).encode('utf-8'))
 
-        if err != "":
+        if err != b'':
             # there was an error, report it
             sublime.status_message("xmllint: " + err)
             sublime.set_timeout(self.clear, 10000)
