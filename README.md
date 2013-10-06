@@ -4,8 +4,10 @@ SublimeTextXmlLint
 Sublime Text plugin to run xmllint on the current file
 
 ## Installation
-### with git
+### git
     git clone https://github.com/craighurley/SublimeTextXmlLint.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/XmlLint
+or
+    git clone https://github.com/craighurley/SublimeTextXmlLint.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/XmlLint
 
 ## Usage
 To run xmllint on the current file, simply press the following keys:
